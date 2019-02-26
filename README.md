@@ -1,5 +1,5 @@
 # win10.lock-screen.pictures
-Copies lock screen pictures to `Pictures/tmp` folder
+I usually like the lock screen pictures and like to have them as wallpapers, so I made this small script to copy them to `Pictures/tmp`. Running the script once or twice a week will usually grab all the pictures that have been used for the lock screen.
 
 ## Usage
 Just run the script from console
@@ -11,5 +11,4 @@ To save files to a different folder than `tmp`, just add the folder name at the 
 `> python main.py otherFolder`
 
 ## Requirements
-Package requires python with pillow installed. If you don't care, just run
-`> pip install pillow`
+Package requires [Python](https://www.python.org/downloads/) with [Pillow](https://pillow.readthedocs.io/en/latest/installation.html#basic-installation) installed. If you don't care, just run `> pip install pillow` after you have installed Python

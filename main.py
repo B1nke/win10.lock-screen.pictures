@@ -6,7 +6,7 @@ try:
   from PIL import Image
 except ImportError:
   print("""Pillow is not installed, install it with 
-$ pip install pillow
+> pip install pillow
 https://pillow.readthedocs.io/en/latest/installation.html#basic-installation for more information""")
   sys.exit()
 
